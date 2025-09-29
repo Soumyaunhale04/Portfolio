@@ -58,9 +58,45 @@ body{
 .contact{
  margin-top: 30px;
  border-top: 2px solid #3a3a3a;
+ padding-top: 30px;
+}
+
+.label{
+  font-size: 0.8rem;
+  color: #a0a0a0;
+  font-weight: 500;
+}
+
+.value{
+  color: #e1e1e1;
+  text-decoration: none;
+}
+
+.email, .phone{
+  margin-bottom: 15px;
 }
 
 
+/* social media */
+.social-media{
+  margin-top: 30px;
+  border-top: 2px solid #3a3a3a;
+  padding-top: 30px;
+  text-align: center;
+
+}
+.social-media img{
+  height: 24px;
+  width: 24px;
+  margin-left: 5px;
+  filter: grayscale(1) invert(0.7);
+  transition: filter 0.3s ease;
+
+}
+
+.social-media img:hover{
+  filter: grayscale(0) invert(0);
+}
 
 /* main-content */
 .main-content{
